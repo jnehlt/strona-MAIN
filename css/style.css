@@ -1,0 +1,26 @@
+img{
+    height: 100px;
+    width: auto;
+    z-index: 1000;
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+.invert {-webkit-filter: invert(100%); filter: invert(100%);}
+
+#title>p>span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+}
+
+.main{
+    color: #61afef;
+}
+
+.mp{
+    color: #abb2bf;
+}
+
+small{
+    font-size: 0.5em;
+}
