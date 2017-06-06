@@ -29,4 +29,9 @@ small{
     .logo{
         padding-top:100px;
     }
+    small{
+    font-size: 0.25em;
+    
+}
+
 }
