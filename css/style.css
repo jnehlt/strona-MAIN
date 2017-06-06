@@ -17,12 +17,8 @@ img{
     color: #61afef;
 }
 
-.mp{
+.mp, #blink{
     color: #abb2bf;
-}
-
-#blink{
-    color: #abb2bf
 }
 
 small{
