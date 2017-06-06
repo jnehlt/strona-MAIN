@@ -24,3 +24,9 @@ img{
 small{
     font-size: 0.5em;
 }
+
+@media screen and (max-width: 700px){
+    .logo{
+        padding-top:100px;
+    }
+}
