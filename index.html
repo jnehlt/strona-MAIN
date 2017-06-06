@@ -21,17 +21,24 @@
     <div id='stars3'></div>
     <div id='title'>
 
-
-
-        <p class="logo"><span class="main">main</span><span class="mp">()</span></p>
+        <p class="logo">
+            <span class="main">main</span>
+            <span class="mp">()</span>
+            <span id="blink">_</span></p>
         <p>
             Strona w budowie<br>
            <small>kontakt do koła: <b>main@info.p.lodz.pl</b></small>
-        
         </p>
-
     </div>
 
+    <script>
+      function blink() {
+       var f = document.getElementById('blink');
+       setInterval(function() {
+          f.style.visibility = (f.style.visibility == 'hidden' ? 'visible' : 'hidden');
+       }, 500);
+      }
+    </script>
 </body>
 
 </html>
